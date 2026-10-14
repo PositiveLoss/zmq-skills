@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZeroMQ — PHP"
+  short_description: "Build PHP ZeroMQ clients and native worker bridges"
+  default_prompt: "Use $develop-zeromq-php to integrate a PHP application with bounded C ZeroMQ workers."

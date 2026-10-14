@@ -1,0 +1,4 @@
+interface:
+  display_name: "Package C Applications"
+  short_description: "Package C executables and native dependencies"
+  default_prompt: "Use $package-c-applications to build and validate an application primarily in C."
