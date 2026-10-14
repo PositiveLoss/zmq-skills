@@ -1,0 +1,14 @@
+interface:
+  display_name: Refactor C Functionally
+  short_description: Separate pure computations from explicit state and I/O
+  default_prompt: Use $refactor-c-functional for this C project, preserve its API
+    and ABI, and verify the results.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

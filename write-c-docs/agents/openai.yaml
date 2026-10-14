@@ -1,0 +1,14 @@
+interface:
+  display_name: Write C Documentation
+  short_description: Document ownership, errors and executable API examples
+  default_prompt: Use $write-c-docs for this C project, preserve its API and ABI,
+    and verify the results.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
