@@ -25,7 +25,10 @@ per platform and binding. Use inproc:// only inside one implementation/context.
 Assign each ordinary socket to one owner thread; share contexts only as supported
 by the binding. Serialize coroutine access and the request/reply lifecycle.
 Keep payloads as bytes. Specify codec, version, maximum frame count, frame sizes
-and total message size. Receive every multipart frame before parsing it.
+and total message size. Receive the complete accepted multipart message before
+application parsing. On a frame/count/aggregate violation, drain only within an
+explicit budget or close/reset the owner socket; never continue on an ambiguous
+partial message or drain an attacker-controlled stream without bounds.
 Do not cast a C struct onto the wire. Specify integer byte order and units.
 
 For a DEALER-to-ROUTER application message [version, request_id, payload],

@@ -1,0 +1,4 @@
+interface:
+  display_name: "C Storage Applications"
+  short_description: "Build C persistence with explicit transaction rules"
+  default_prompt: "Use $develop-c-storage to build and validate an application primarily in C."

@@ -1,0 +1,14 @@
+interface:
+  display_name: C Security Audit
+  short_description: Find and validate C security vulnerabilities
+  default_prompt: Use $audit-c-security to audit this project and validate actionable
+    findings.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

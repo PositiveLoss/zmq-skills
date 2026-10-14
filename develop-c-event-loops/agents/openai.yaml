@@ -1,0 +1,4 @@
+interface:
+  display_name: "C Event Loops"
+  short_description: "Build bounded C event loops and owner lifecycles"
+  default_prompt: "Use $develop-c-event-loops to build and validate an application primarily in C."

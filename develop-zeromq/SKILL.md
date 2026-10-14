@@ -17,6 +17,7 @@ description: Design, implement, debug, secure and validate ZeroMQ message system
 
 | Target | Skill | Initial binding route |
 | --- | --- | --- |
+| PHP | develop-zeromq-php | verified ext-zmq build plus libzmq |
 | Python | develop-zeromq-python | PyZMQ and zmq.asyncio |
 | Rust | develop-zeromq-rust | zmq crate plus native libzmq |
 | Go | develop-zeromq-go | pebbe/zmq4 plus cgo/libzmq |

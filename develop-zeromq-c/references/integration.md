@@ -12,7 +12,7 @@ ROUTER service that strips its routing ID and returns the three body frames.
 Use a unique request ID in real applications; example-1 is a fixture only.
 Socket timeouts bound individual operations; impose an overall application
 deadline as well. Check errors from every option setter and endpoint operation
-when turning abbreviated JVM/C++ fragments into an implementation.
+when turning abbreviated C fragments into an implementation.
 
 ```c
 /* Stable options before bind/connect; check all calls in production. */

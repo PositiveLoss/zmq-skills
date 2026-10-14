@@ -1,0 +1,4 @@
+interface:
+  display_name: "C Desktop Applications"
+  short_description: "Build C desktop UI with safe callback lifetimes"
+  default_prompt: "Use $develop-c-desktop-apps to build and validate an application primarily in C."

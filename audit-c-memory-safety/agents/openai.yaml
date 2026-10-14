@@ -1,0 +1,14 @@
+interface:
+  display_name: Audit C Memory Safety
+  short_description: Audit bounds, initialization and allocation lifetimes
+  default_prompt: Use $audit-c-memory-safety for this C project, preserve its API
+    and ABI, and verify the results.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

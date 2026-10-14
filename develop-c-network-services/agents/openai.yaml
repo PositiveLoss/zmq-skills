@@ -1,0 +1,4 @@
+interface:
+  display_name: "C Network Services"
+  short_description: "Build bounded C services with explicit protocols"
+  default_prompt: "Use $develop-c-network-services to build and validate an application primarily in C."

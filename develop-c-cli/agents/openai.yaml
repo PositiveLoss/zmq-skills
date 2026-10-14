@@ -1,0 +1,4 @@
+interface:
+  display_name: "C CLI Applications"
+  short_description: "Build predictable portable C command line tools"
+  default_prompt: "Use $develop-c-cli to build and validate an application primarily in C."
