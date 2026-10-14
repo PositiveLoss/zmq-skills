@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZeroMQ — Java"
+  short_description: "Build and validate ZeroMQ in Java"
+  default_prompt: "Use $develop-zeromq-java to implement a bounded ZeroMQ message flow and verify its recovery behavior."

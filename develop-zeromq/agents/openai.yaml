@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZeroMQ — cross-language systems"
+  short_description: "Build and validate ZeroMQ in cross-language systems"
+  default_prompt: "Use $develop-zeromq to implement a bounded ZeroMQ message flow and verify its recovery behavior."

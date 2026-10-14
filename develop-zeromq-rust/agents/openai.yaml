@@ -1,0 +1,4 @@
+interface:
+  display_name: "ZeroMQ — Rust"
+  short_description: "Build and validate ZeroMQ in Rust"
+  default_prompt: "Use $develop-zeromq-rust to implement a bounded ZeroMQ message flow and verify its recovery behavior."
